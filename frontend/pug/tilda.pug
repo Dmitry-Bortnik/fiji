@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Тильда
+        link(rel="stylesheet", href="/assets/css/jquery.fancybox.min.css")
+        link(rel="stylesheet", href="/assets/css/remodal.css")
+        link(rel="stylesheet", href="/assets/css/slick.css")
+        link(rel="stylesheet", href="/assets/css/style.css")
+    body
+        .wrapper.tilda-page
+          .top-block
+               include includes/header.pug
+          .tp-block-1
+               .container.-flex.-justify-between.-center.-wrap
+                    .tp-block-1__left
+                         h1 Создадим креативный <br>сайт на Тильде 
+                              span для быстрого запуска рекламы в&nbsp;Уфе
+                         .tp-block-1__list
+                              div.-flex.-center
+                                   .tp-block-1__list__icon 
+                                        img(src="/assets/img/zapusk-3-days.svg", alt="")
+                                   | запуск от 3 дней
+                              div.-flex.-center
+                                   .tp-block-1__list__icon 
+                                        img(src="/assets/img/low-price.svg", alt="")
+                                   | доступная цена
+                              div.-flex.-center
+                                   .tp-block-1__list__icon 
+                                        img(src="/assets/img/test-business.svg", alt="")
+                                   | идеально для теста ниши
+                    .tp-block-1__right
+                         img(src="/assets/img/main-imgs.png", alt="")
+                    .tp-block-1__big-logo-tilda
+                         img(src="/assets/img/tilda-big-logo.png", alt="")
+          .tp-sale-structure
+               .container
+                    .title В первую очередь <br>готовим продающую структуру сайта
+                    .tp-sale-structure__flex.-flex
+                         .tp-sale-structure__left
+                              img(src="/assets/img/prototipe.png", alt="")
+                         .tp-sale-structure__right
+                              .tp-sale-structure__row.-flex.-center
+                                   .tp-sale-structure__nom
+                                        img(src="/assets/img/1.svg", alt="")
+                                   p <span>Анализируем</span> конкурентов и топовых игроков в вашей нише по всей России
+                              .tp-sale-structure__row.-flex.-center
+                                   .tp-sale-structure__nom
+                                        img(src="/assets/img/2.svg", alt="")
+                                   p <span>Проводим с вами встречу</span> и с помощью наводящих вопросов разбираемся в вашем бизнесе и его преимуществах перед другими
+                              .tp-sale-structure__row.-flex.-center
+                                   .tp-sale-structure__nom
+                                        img(src="/assets/img/3.svg", alt="")
+                                   p <span>Находим «боли» ваших клиентов</span> и пишем такой текст, который закрывает основные вопросы при просмотре сайта и приводит к звонку или заявке на ваш продукт
+                              .tp-sale-structure__row.arr-prototipe.-flex.-center
+                                   .tp-sale-structure__nom
+                                        img(src="/assets/img/4.svg", alt="")
+                                   p <span>На выходе получается «прототип»</span>, который является основой для отрисовки дизайнером
+                              img.mobile(src="/assets/img/prototipe-mob.png", alt="")
+                              .tp-sale-structure__alert
+                                   span Важно!
+                                   p Многие думают, что главное в сайте - чтобы он был красивым, и не думают о продающей структуре. Отдают хорошему дизайнеру на отрисовку - сайт получается красивым. Но когда на такой сайт запускается реклама - деньги уходят, а клиентов нет.
+          .tp-unic-design
+               .container.-flex
+                    .tp-unic-design__content
+                         .title Рисуем уникальный дизайн <br>по фирменному стилю <br>вашего бренда
+                         .tp-unic-design__text <span>Сайт должен быть лицом и передавать энергию Вашей компании.</span> Именно поэтому вашим сайтом будут заниматься дизайнеры, которые имеют художественное образование и 7 лет практики за плечами.
+                    .tp-unic-design__img
+                         img(src="/assets/img/white-design.png", alt="")
+          .tp-three-step
+               .container
+                    .title Третий этап - сборка сайта
+                    .tp-three-step__row1.-flex.-justify-between
+                         .tp-three-step__row1__left
+                              img(src="/assets/img/3-step.png", alt="")
+                         .tp-three-step__row1__right
+                              .tp-three-step__alert Тильда позволяет собирать качественные сайты, не отличимые глазом от других, при этом не нужно  привлекать к работе программистов - именно поэтому сайты на Тильде до 2х раз дешевле.
+                              p При сборке мы уделяем особое внимание мобильной версии сайта, так как более 70% посетителей сайта заходят через мобильные устройства.
+                    .tp-three-step__row2
+                         .title Весь проект Вас ведет <br>персональный менеджер
+                         .tp-three-step__alert 
+                              p Дизайнеры и программисты общаются на своем сложном техническом языке.<br> Те, кто ранее работал с отдельными фрилансерами, прекрасно понимают, как бывает тяжело понять или донести до исполнителя свои мысли.
+                              p <span>Менеджер проекта - это переводчик и контроллер.</span> Он отвечает за то, чтобы все этапы работ были выполнены в срок и находится всегда на связи, готов принять звонок и пообщаться по проекту.
+                         .tp-three-step__calendar <span>2 раза в неделю</span> отчитываемся о ходе выполнения работ.   
+          .tp-quote
+               p Запомните - работа над проектом <br>это не «оплатил-забыл-получил результат», <br>а тесное взаимодействие команды <br>с компанией Заказчика 
+          .tp-doing
+               .container
+                    .tp-doing__content.-flex
+                         .tp-doing__left
+                              .title Вы делаете с нами <br>и параллельно учитесь новому
+                              p Взаимодействуя во время работы приносит непоправимую пользу - вы и ваша команда больше узнает о маркетинге, о бизнес-процессах и правильном пути дальнейшего развития компании.
+                              a.open-rubric(href="#") Открыть раздел с обучающими материалами
+                         .tp-doing__right
+                              img(src="/assets/img/parallel-lern.png", alt="")
+          .works
+               .container
+                    .title Наша гордость
+                    .works__content
+                         .works__category.-flex.-justify-between
+                              a.works__cat-item(href="javascript:void(0);",data-categody="1") Сайты для зрелого бизнеса
+                              a.works__cat-item.active(href="javascript:void(0);",data-categody="2") Сайты на Тильде
+                              a.works__cat-item(href="javascript:void(0);",data-categody="3") Бизнес-презентации
+                              a.works__cat-item(href="javascript:void(0);",data-categody="4") Внедрение AmoCRM
+                              a.works__cat-item(href="javascript:void(0);",data-categody="5") Разработка ПО
+                              a.works__cat-item(href="javascript:void(0);",data-categody="6") Whatsapp-боты
+                         .works-scroll
+                              .works__list(data-works="1", style="display:none").-flex
+                                   .works__item
+                                        img(src="/assets/img/works/1.jpg", alt="")
+                                        .works__open
+                                             h5 Сайт школы футбола Олимп
+                                             p Экспресс-одностраничник, описывающий школу футбола, текст готовил клиент, собирали на шаблонных блоках Тильды.
+                                             a(href="http://fcolimp-ufa.ru/", target="_blank") fcolimp-ufa.ru
+                                   .works__item
+                                        img(src="/assets/img/works/2.jpg", alt="")
+                                        .works__open
+                                             h5 Сайт-каталог тортов под заказ в Москве
+                                             p Компания «Канарейка» занимается изготовлением тортов под заказ.
+                                             a(href="http://kanareika-cake.ru/", target="_blank") kanareika-cake.ru
+                                   .works__item
+                                        img(src="/assets/img/works/3.jpg", alt="")
+                                        .works__open
+                                             h5 Интернет-магазин Ёлок
+                                             p Быстрый запуск для компании по продаже искусственных ёлок в Москве.
+                                             a(href="http://x-mastrees.ru/", target="_blank") x-mastrees.ru
+                              .works__list(data-works="2").-flex
+                                   .works__item
+                                        img(src="/assets/img/works/1.jpg", alt="")
+                                        .works__open
+                                             h5 Сайт школы футбола Олимп
+                                             p Экспресс-одностраничник, описывающий школу футбола, текст готовил клиент, собирали на шаблонных блоках Тильды.
+                                             a(href="http://fcolimp-ufa.ru/", target="_blank") fcolimp-ufa.ru
+                                   .works__item
+                                        img(src="/assets/img/works/2.jpg", alt="")
+                                        .works__open
+                                             h5 Сайт-каталог тортов под заказ в Москве
+                                             p Компания «Канарейка» занимается изготовлением тортов под заказ.
+                                             a(href="http://kanareika-cake.ru/", target="_blank") kanareika-cake.ru
+                                   .works__item
+                                        img(src="/assets/img/works/3.jpg", alt="")
+                                        .works__open
+                                             h5 Интернет-магазин Ёлок
+                                             p Быстрый запуск для компании по продаже искусственных ёлок в Москве.
+                                             a(href="http://x-mastrees.ru/", target="_blank") x-mastrees.ru
+                                   .works__item
+                                        img(src="/assets/img/works/4.jpg", alt="")
+                                        .works__open
+                                             h5 Сайт строительной компании
+                                             p Многостраничный сайт компании Атриум, занимающейся строительством домов по канадской технологии. 
+                                             a(href="http://atriumufa.ru/", target="_blank") atriumufa.ru
+          include includes/vpechatleniya.pug
+          .tarifs
+               .container
+                    .title Тарифы
+                    .tarifs__content.-flex.-justify-between.slider
+                         .tarifs__item.tarifs__item__1
+                              .tarifs__title Экспресс
+                              ul 
+                                   li До 8 блоков
+                                   li Пишем тексты и структуру сайта
+                                   li Собираем на шаблонах Тильды
+                                   li Настраиваем заявки на почту
+                              .tarifs__item__price 18 750 рублей
+                              .tarifs__item__afterprice Запуск за 3 дня
+                              a.btn.blue-btn(href="") Узнать подробнее
+                         .tarifs__item.tarifs__item__2
+                              .tarifs__title Продающий сайт
+                              ul 
+                                   li До 10 блоков
+                                   li Пишем тексты и структуру сайта
+                                   li Рисуем уникальный дизайн
+                                   li Настраиваем заявки на почту и в CRM
+                              .tarifs__item__price 40 000 рублей
+                              .tarifs__item__afterprice Запуск за 14 дней
+                              a.btn.green-btn(href="") Узнать подробнее
+                         .tarifs__item.tarifs__item__3
+                              .tarifs__title Интернет-магазин
+                              ul 
+                                   li До 30 товаров
+                                   li Пишем тексты и структуру сайта
+                                   li Рисуем уникальный дизайн
+                                   li Настраиваем заявки на почту и в CRM
+                              .tarifs__item__price 49 000 рублей
+                              .tarifs__item__afterprice Запуск за 21 день
+                              a.btn.hardblue-btn(href="") Узнать подробнее
+          .cheap 
+               .container
+                    .title Всегда найдется тот, <br>кто сделает дешевле
+                    .cheap_after__title Но есть нюансы, которые могут вылезти позже.
+                    .cheap__content 
+                         h4 Скорее всего это люди, которые:
+                         ul 
+                              li недавно прошли «курсы» по теме
+                              li не придают значения правильному техзаданию и в конце получается совсем не то, что хотел заказчик
+                              li являются «технарями», с которыми очень сложно найти общий язык обычному заказчику
+                              li изначально не собирались выполнять обязательства  и пропадают после получения предоплаты
+                    .cheap__img
+                         img(src="/assets/img/tattoo-master.png", alt="")
+          .contacts
+               .container
+                    .title Находимся в Уфе - работаем по всей России
+                    .contacts__list.-flex
+                         .contacts__item
+                              span Телефон
+                              a.contacts__phone(href="89917773269") 8 (991) 777-32-69
+                         .contacts__item
+                              span Мессенджеры и соцсети
+                              .socials.-flex
+                                   a(href="#") 
+                                        img(src="/assets/img/socials/vk.svg", alt="")
+                                   a(href="#") 
+                                        img(src="/assets/img/socials/inst.svg", alt="")
+                                   a(href="#") 
+                                        img(src="/assets/img/socials/tg.svg", alt="")
+                                   a(href="#") 
+                                        img(src="/assets/img/socials/whatsapp.svg", alt="")
+                         .contacts__item
+                              span Email
+                              a.contacts__mail mail@fijiweb.ru
+                         .contacts__item
+                              span Email для соискателей
+                              a.contacts__mail hr@fijiweb.ru
+                    .contacts__content.-flex
+                         .contacts__left
+                              span Адрес
+                              h4  г. Уфа, ул. Менделеева 152/4 (ВДНХ)
+                              p.alert Время встреч в офисе расписано на несколько дней вперед, поэтому, пожалуйста, не приезжайте без звонка, все встречи проходят по предварительной записи на сайте или по телефону.
+                         .contacts__right
+                              span
+                              .map#map
+                    .contacts__gallery
+                         div 
+                              img(src="/assets/img/studia/1.jpg", alt="")
+                         div 
+                              img(src="/assets/img/studia/2.jpg", alt="")
+                         div 
+                              img(src="/assets/img/studia/3.jpg", alt="")
+                         div 
+                              img(src="/assets/img/studia/4.jpg", alt="")
+          .td-free-consult
+               .container
+                    .title Получите бесплатную консультацию <br>руководителей агентства
+                    .td-free-consult__row-1.-flex
+                         .td-free-consult__row-1__left
+                              img(src="/assets/img/man-3.png", alt="")
+                         .td-free-consult__row-1__right
+                              p Привет! Мы уже 8 лет вплотную работаем с собственниками компаний с целью увеличения прибыли, систематизации и масштабирования бизнеса в&nbsp; Уфе и по всей России. 
+                              p Это и строители, и услуги в сфере электроэнергетики, и специалисты в сфере тюнинга авто.
+                              p Это и маленькие предприятия, занимающиеся изготовлением тортов и детскими праздниками, так и международные компании, как Роснефть.
+                    .td-free-consult__row-2.-flex
+                         .td-free-consult__row-2__left
+                              p Мы сами являемся предпринимателями, и как никакой отдельный «дизайнер» или «программист» понимаем боли и потребности предпринимателей и топ-менеджеров компаний.
+                              p.blue-text Мы всегда начинаем не с техзадания или просьбы «запилить сайтик», а с бизнес-цели, на основе которой уже мы подбираем подходящие инструменты.
+                              p.author Валерий Дементьев 
+                                   span Сооснователь
+                         .td-free-consult__row-2__right
+                              img(src="/assets/img/man-4.png", alt="")
+          .td-video-call
+               .container 
+                    .td-video-call__content
+                         .td-video-call__title Приглашаем вас на видеозвонок или личную встречу, где мы разберем вашу ситуацию и подберем оптимальные инструменты.
+                         .td-video-call__form
+                              form#td-video-form(action="#")
+                                   input(name="phone", required="required", placeholder="Введите телефон")
+                                   button.green-btn.btn Записаться на консультацию
+                         .td-video-call__img 
+                              img(src="/assets/img/video-call-bg.png", alt="")
+        include includes/footer.pug
+
+        .remodal(data-remodal-id="call-back",  data-remodal-options="hashTracking: false, closeOnOutsideClick: true")
+          button.remodal-close(data-remodal-action="close" class="remodal-close")
+          #form-modal_c
+               .modal-title Оставьте заявку <span>Наш менеджер свяжется с вами в ближайшее время</span>
+               form#form-call-back
+                    input(type="text", name="name", required="required", placeholder="Введите имя")
+                    input(type="text", name="phone", required="required", placeholder="Введите телефон")
+                    input(type="hidden", name="head_mess", value="Заказать звонок")
+                    button.btn-blue.btn(type="submit") Отправить
+        script(src="https://code.jquery.com/jquery-3.5.1.min.js")
+        script(src="/assets/js/jquery.maskedinput.js")
+        script(src="/assets/js/jquery.fancybox.min.js")
+        script(src="/assets/js/slick.min.js")
+        script(src="/assets/js/remodal.min.js")
+        script(src="/assets/js/scripts.js")

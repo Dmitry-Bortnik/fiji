@@ -1,0 +1,91 @@
+.left-sidebar
+    .container-sidebar
+        .filter__mobile__title
+            h3 Фильтр
+            span.filter__mobile__close
+        .filter-row.selected__filters
+            .filer__title__selected__filter Выбранные фильтры
+            .filter__body.-flex.-wrap
+                span Middle
+                    a(href="#").delete_filter
+                span Middle
+                    a(href="#").delete_filter
+                span Middle
+                    a(href="#").delete_filter
+                span 2 500 — 4 150
+                    a(href="#").delete_filter
+                a(href="#").delete_all_filters
+        .filter-row
+            .filer__title Стоимость, <span class="rouble">i</span>/час
+            .filter__body.filter__price
+                .-flex.-justify-between
+                    .input-container
+                        input(type="text")
+                    .input-container
+                        input(type="text") 
+        .filter-row
+            .filer__title Стек технологий
+            .filter__body
+                .multiselect.-flex.-wrap
+                    input(type="text", placeholder="Выберите необходимый навык") 
+        .filter-row
+            .filer__title Стек технологий
+            .filter__body
+                .multiselect.-flex.-wrap(style="display:none")
+                    input(type="text", placeholder="Выберите необходимый навык") 
+                .multiselect.-flex.-wrap
+                    input(type="text", placeholder="",  value="jQuery")
+                    .stek__dropdown.stek__empty
+                        .stek_dropdown__empty Стек не найден
+        .filter-row
+            .filer__title Стек технологий
+            .filter__body
+                .multiselect.-flex.-wrap.get_stek_multiselect
+                    span.stek_appy Html
+                        a(href="#").delete_stek 
+                    span.stek_appy Git
+                        a(href="#").delete_stek 
+                    input(type="text", placeholder="", onkeyup="todo(this);", class="get_stek_input")
+                    .stek__dropdown
+                        .stek_dropdown__title Рекомендуемые
+                        .stek_dropdown__body
+                            div 
+                                a(href="#") JavaScript
+                            div 
+                                a(href="#") Git
+                            div 
+                                a(href="#") Html
+                            div 
+                                a(href="#") React
+                            div 
+                                a(href="#") HTTP
+        .filter-row
+            .filer__title Уровень
+            .filter__body
+                label.checkbox-label.active(for="junior")
+                    input(type="checkbox")#junior
+                    span Junior
+                label.checkbox-label(for="Middle")
+                    input(type="checkbox")#Middle
+                    span Middle
+                label.checkbox-label(for="Middleplus")
+                    input(type="checkbox")#Middleplus
+                    span Middle +
+                label.checkbox-label(for="Senior")
+                    input(type="checkbox")#Senior
+                    span Senior
+                label.checkbox-label(for="Lead")
+                    input(type="checkbox")#Lead
+                    span Lead
+        .filter-row
+            .filer__title Формат работы
+            .filter__body
+                label.checkbox-label.active(for="format_inoffice")
+                    input(type="checkbox")#format_inoffice
+                    span На территории заказчика
+                label.checkbox-label(for="format_out")
+                    input(type="checkbox")#format_out
+                    span Удаленно
+        button.btn.btn_fullwidth.btn__apply_filter_mobile Посмотреть 88 специалистов
+            
+                

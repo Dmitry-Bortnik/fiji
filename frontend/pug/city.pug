@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Выбор города
+        link(rel="stylesheet", href="/assets/css/jquery.fancybox.min.css")
+        link(rel="stylesheet", href="/assets/css/remodal.css")
+        link(rel="stylesheet", href="/assets/css/slick.css")
+        link(rel="stylesheet", href="/assets/css/style.css")
+    body
+        .wrapper
+            include includes/header.pug
+            .city-selector
+                .container
+                    .title Укажите ближайший к вам город
+                    .city-selector__list
+                        .city-selector__item
+                            a.capital(href="#") Москва
+                            a.capital(href="#") Санкт-Петербург
+                        .city-selector__item
+                            .city-selector__letter A
+                            a(href="#") Александров
+                            a(href="#") Архангельск
+                        .city-selector__item
+                            .city-selector__letter Б
+                            a(href="#") Балашиха
+                            a(href="#") Белгород
+                            a(href="#") Березники
+                            a(href="#") Бронницы
+                            a(href="#") Брянск
+                        .city-selector__item
+                            .city-selector__letter В
+                            a(href="#") Великий Новгород
+                            a(href="#") Владивосток
+                            a(href="#") Владимир
+                            a(href="#") Волгоград
+                            a(href="#") Волжский
+                            a(href="#") Вологда
+                            a(href="#") Воронеж
+                            a(href="#") Воскресенск
+                        .city-selector__item
+                            .city-selector__letter Г
+                            a(href="#") Гатчина
+                            a(href="#") Голицыно
+                        .city-selector__item
+                            .city-selector__letter Д
+                            a(href="#") Дмитров
+                            a(href="#") Домодедово
+                        .city-selector__item
+                            .city-selector__letter Е
+                            a(href="#") Егорьевск
+                            a(href="#") Екатеринбург
+                        .city-selector__item
+                            .city-selector__letter З
+                            a(href="#") Зеленоград
+                        .city-selector__item
+                            .city-selector__letter И
+                            a(href="#") Иваново
+                            a(href="#") Ижевск
+                        .city-selector__item
+                            .city-selector__letter Й
+                            a(href="#") Йошкар-Ола
+                        .city-selector__item
+                            .city-selector__letter К
+                            a(href="#") Казань
+                            a(href="#") Калуга
+                            a(href="#") Кашира
+                            a(href="#") Клин
+                            a(href="#") Коломна
+                            a(href="#") Королёв
+                            a(href="#") Кострома
+                            a(href="#") Краснодар
+                            a(href="#") Курск
+                        .city-selector__item
+                            .city-selector__letter Л
+                            a(href="#") Липецк
+                        .city-selector__item
+                            .city-selector__letter М
+                            a(href="#") Магадан
+                            a(href="#") Москва
+                            a(href="#") Мурманск
+                        .city-selector__item
+                            .city-selector__letter Н
+                            a(href="#") Набережные Челны
+                            a(href="#") Наро-Фоминск
+                            a(href="#") Нижний Новгород
+                            a(href="#") Новороссийск
+                            a(href="#") Новосибирск 
+                            a(href="#") Ногинск
+        include includes/footer.pug
+
+        .remodal(data-remodal-id="call-back",  data-remodal-options="hashTracking: false, closeOnOutsideClick: true")
+          button.remodal-close(data-remodal-action="close" class="remodal-close")
+          #form-modal_c
+               .modal-title Оставьте заявку <span>Наш менеджер свяжется с вами в ближайшее время</span>
+               form#form-call-back
+                    input(type="text", name="name", required="required", placeholder="Введите имя")
+                    input(type="text", name="phone", required="required", placeholder="Введите телефон")
+                    input(type="hidden", name="head_mess", value="Заказать звонок")
+                    button.btn-blue.btn(type="submit") Отправить
+        script(src="https://code.jquery.com/jquery-3.5.1.min.js")
+        script(src="/assets/js/jquery.maskedinput.js")
+        script(src="/assets/js/jquery.fancybox.min.js")
+        script(src="/assets/js/slick.min.js")
+        script(src="/assets/js/remodal.min.js")
+        script(src="/assets/js/scripts.js")
